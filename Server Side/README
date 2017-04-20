@@ -1,0 +1,12 @@
+To start the server application, 44444 and 55555 ports should be open in the firewall.
+For ubuntu, the commands are
+$ ufw allow 44444
+$ ufw allow 55555
+$ javac TCPServer.java
+$ java TCPServer
+
+After last command the server will wait client devices to connect, 
+if cannot disable firewall and run the program again 
+
+$ ufw disable
+$ java TCPServer
